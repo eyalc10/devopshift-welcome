@@ -27,7 +27,7 @@ metadata:
     app: reviews
     version: v1
 spec:
-  replicas: {{ .Values.details.replicaCount }}
+  replicas: {{ .Values.reviews.replicaCount }}
   selector:
     matchLabels:
       app: reviews
